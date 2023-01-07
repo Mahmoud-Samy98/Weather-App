@@ -4,7 +4,7 @@ import Form from "./components/Form";
 import Weather from "./components/Weather";
 
 const API_KEY = "1975552d54d6e3e267a168f2ec221e87";
-// http://api.openweathermap.org/data/2.5/weather?q=cairo%2Cegypt&appid=e36ed364400282e43250b6c4c0274d44
+
 function App() {
   const [state, setState] = useState({
     tempreature: "",
